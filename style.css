@@ -1,0 +1,255 @@
+.body{
+    background-color: rgba(3, 3, 105, 0.7);
+    background-size: cover;
+}
+
+
+/* NavBar Starts */
+.nav{
+    position: relative;
+    width: 100% !important; 
+}
+.nav .nav-item a{
+    color: rgb(247, 244, 244) !important;
+    margin: 20px;
+}
+.nav > *{
+    color: var(--color-sec);
+}
+.nav::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.navbar {
+    padding: 10px;
+    width: 100% !important;
+    
+}
+.nav .navbar{
+    background-color: rgb(72, 72, 179) !important;
+}
+
+.nav .btn {
+    
+    color: white;
+    height: 60px;
+    width: 250px;
+}
+.nav .btn-outline-danger{
+    background-color: orangered !important;
+}
+/*.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+*/
+/*  NavBar Ends*/
+
+/* Head Page Starts */
+.head2 img{
+    height: 95%;
+    width: 75%;
+    margin-left: 30%;
+    border-radius: 2%;
+}
+.head{
+    display: flex;
+}
+.head1{
+    margin-top: 5%;
+}
+.head1 h1{
+    text-align: center;
+    margin-left: 150px;
+    font-stretch: expanded;
+    font-size: 60px;
+    color: white;
+}
+.head1 h3{
+    text-align: center;
+    margin-left: 150px;
+    color: white;
+    font-size: 30px;
+}
+.head1 button{
+    margin-left: 240px;
+    width: 35%;
+    height: 60px;
+}
+/* Head Page Ends */
+
+/* Client Page Starts */
+.p-2 {
+    display: flex;
+    padding: 4rem!important;
+}
+.p-2 p{
+    margin-top: 90px;
+    margin-left: -110px;
+}
+.p-2 h2{
+    margin-left: 10px;
+}
+/* Client Page Ends */
+
+/* About Page Starts */
+.about{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: 40px;
+}
+.about p{
+    font-size: 20px !important;
+}
+.about2{
+    display: flex;
+}
+.about2 .image{
+    margin-left: 200px;
+}
+.about2 .accordion{
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.about2 .accordion button{
+    text-align: left !important;
+    margin-left: 10px;
+   font-size: 20px;
+}
+/* About Page Ends */
+
+/* Digital Page Starts */
+.digital4{
+    display: flex;
+}
+.digital{
+    display: flex;
+}
+.digital .img{
+    margin-right: 2%;
+}
+.digital3{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.box1, .box2{
+    background-color: rgb(250, 247, 243);
+    box-shadow: 1px 1px 10px rgb(140, 140, 238);
+    height: 400px;
+    padding: 50px;
+    width: 35%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.box2{
+    margin-left: 50px;
+}
+.box1{
+    margin-left: 120px;
+}
+/* Digital Page Ends */
+
+/* Message Page Starts */
+.msg{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(97, 97, 240);
+    height: 400px;
+    width: 35%;
+    padding: 70px;
+    margin-left: 55%;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.msgimg{
+    background-image: url(img/bg.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+/* Message Page Ends */
+
+/* Hand Page Starts */
+.hand{
+    margin-top: 50px;
+    text-align: center;
+}
+.hand h2{
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.hand p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Hand Page Ends */
+
+/* Project Page Starts */
+.project{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.project1{
+    margin-top: 100px;
+}
+.project1 h2{
+    font-size: 40px;
+}
+.project1 p{
+    margin-inline: 20px;
+}
+.project1 button{
+    width: 200px;
+    height: 65px;
+}
+/* Project Page Ends */
+
+/* Footer Page Starts */
+footer .bg-secondary{
+    height: 450px;
+    background-color: rgb(97, 97, 240)!important;
+}
+footer .row{
+    padding: 5rem;
+}
+/* Footer Page Ends */
